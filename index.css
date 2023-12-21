@@ -1,0 +1,63 @@
+/* Write your code here. */
+
+.bg-container {
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.main-heading {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  border-radius: 4px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.box-image {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+
+  margin-right: 14px;
+  margin-top: 14px;
+}
+
+.blueBox {
+  background-color: #0b69ff;
+}
+
+.greenBox {
+  background-color: #2dca73;
+}
+
+.yellowBox {
+  background-color: #ffb800;
+}
+
+.redBox {
+  background-color: #ff0b37;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
